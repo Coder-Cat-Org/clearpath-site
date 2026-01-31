@@ -14,7 +14,7 @@ function Header() {
 
   return (
     <header className="sticky top-0 z-20 border-b border-slate-900/10 bg-gradient-to-br from-[#f4f8fb] via-[#e7eef5] to-[#fef6ea] backdrop-blur">
-      <div className="relative mx-auto flex max-w-8xl items-center justify-between gap-8 px-6 py-4 md:px-10">
+      <div className="relative mx-auto flex max-w-7xl items-center justify-between gap-8 px-6 py-4 md:px-10">
         <NavLink
           className="inline-flex items-center gap-3 text-sm uppercase tracking-[0.12em] text-slate-900"
           to="/"
@@ -48,19 +48,17 @@ function Header() {
 
         <nav
           id="app-nav"
-          className={`${
-            menuOpen ? "opacity-100" : "pointer-events-none opacity-0"
-          } absolute right-6 top-full mt-3 flex min-w-[12.5rem] flex-col items-start gap-4 rounded-2xl border border-slate-900/10 bg-white px-5 py-4 shadow-xl transition md:pointer-events-auto md:static md:mt-0 md:flex md:min-w-0 md:flex-row md:items-center md:gap-6 md:border-0 md:bg-transparent md:px-0 md:py-0 md:opacity-100 md:shadow-none`}
+          className={`${menuOpen ? "opacity-100" : "pointer-events-none opacity-0"
+            } absolute right-6 top-full mt-3 flex min-w-[12.5rem] flex-col items-start gap-4 rounded-2xl border border-slate-900/10 bg-white px-5 py-4 shadow-xl transition md:pointer-events-auto md:static md:mt-0 md:flex md:min-w-0 md:flex-row md:items-center md:gap-6 md:border-0 md:bg-transparent md:px-0 md:py-0 md:opacity-100 md:shadow-none`}
         >
           {navItems.map((item) => (
             <NavLink
               key={item.to}
               to={item.to}
               className={({ isActive }) =>
-                `relative text-sm font-semibold uppercase tracking-[0.12em] text-slate-900 transition ${
-                  isActive
-                    ? "border-b-2 border-orange-500"
-                    : "border-b-2 border-transparent hover:border-orange-500"
+                `relative text-sm font-semibold uppercase tracking-[0.12em] text-slate-900 transition ${isActive
+                  ? "border-b-2 border-orange-500"
+                  : "border-b-2 border-transparent hover:border-orange-500"
                 }`
               }
               onClick={() => setMenuOpen(false)}
