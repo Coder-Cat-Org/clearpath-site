@@ -1,21 +1,28 @@
+import aiAutoImage from "../assets/ai_auto_image.png";
+import dataAnalyticsImage from "../assets/data_analytics_image.png";
+import customSoftwareImage from "../assets/custom_software_image.png";
+
 const services = [
   {
     title: "AI & Automation",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Automate workflows and reduce manual effort.",
-    outcome: "Typical outcome: Reduced manual workload and faster turnaround",
+      "We help businesses reduce manual work by applying practical AI and automation to everyday processes. The focus is on improving efficiency, reducing errors, and freeing up your team’s time without unnecessary complexity.",
+    outcome: "Typical outcome: Less time spent on admin and faster, more consistent operations.",
+    image: aiAutoImage,
   },
   {
-    title: "Cloud & Data Platforms",
+    title: "Data & Analytics Foundations",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Automate workflows and reduce manual effort.",
-    outcome: "Typical outcome: Reduced manual workload and faster turnaround",
+      "We build reliable data foundations that give businesses confidence in their numbers and reporting. By consolidating data and improving data quality, we help decision-makers gain clear, trustworthy insights.",
+    outcome: "Clear visibility into performance and data you can rely on to make better decisions.",
+    image: dataAnalyticsImage,
   },
   {
-    title: "Advisory & Delivery",
+    title: "Custom Software & Internal Tools",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Automate workflows and reduce manual effort.",
-    outcome: "Typical outcome: Reduced manual workload and faster turnaround",
+      "We design and build custom internal tools when off-the-shelf software doesn’t quite fit your business. Our solutions are simple, secure, and tailored to how your team actually works.",
+    outcome: "Purpose-built tools that streamline processes and reduce reliance on manual workarounds.",
+    image: customSoftwareImage,
   },
 ];
 
@@ -25,7 +32,7 @@ function ServicesGrid() {
       <div className="mx-auto max-w-6xl px-6 md:px-10">
         <div className="mb-10 text-center">
           <h2 className="text-2xl font-semibold text-slate-900">
-            How we work
+            Our Services
           </h2>
           <p className="mt-3 text-sm text-slate-600 sm:text-base">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. We focus on
@@ -36,9 +43,14 @@ function ServicesGrid() {
         {services.map((service) => (
           <article
             key={service.title}
-            className="rounded-2xl bg-[#f7e9ea] px-8 py-10 text-center"
+            className="rounded-2xl bg-stone-200 px-8 py-10 text-center"
           >
-            <div className="mx-auto mb-6 h-10 w-10 rounded-md bg-slate-300/60" />
+            <img
+              src={service.image}
+              alt={service.title}
+              className="mx-auto mb-6 rounded-md object-contain"
+              loading="lazy"
+            />
             <h3 className="text-base font-semibold text-slate-900">
               {service.title}
             </h3>
