@@ -9,11 +9,10 @@ function Hero() {
             ClearPath Systems
           </p>
           <h1 className="text-3xl font-semibold text-slate-900 sm:text-4xl lg:text-5xl">
-            Data, AI &amp; Cloud for modern businesses
+            Data, AI &amp; Analytics for modern businesses
           </h1>
           <p className="max-w-xl text-base font-light text-slate-600 sm:text-lg">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. We design
-            and build scalable data and AI platforms.
+            We design and build scalable data and AI solutions for your business.
           </p>
           <div className="flex w-full flex-col gap-3 sm:flex-row sm:justify-end">
             <button className="w-full rounded-xl border border-slate-900/20 bg-white px-5 py-3 text-sm font-semibold uppercase tracking-[0.16em] text-slate-900 transition hover:border-slate-900/40 sm:w-auto">
