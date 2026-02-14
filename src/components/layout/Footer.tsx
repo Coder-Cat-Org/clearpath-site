@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer className="border-t border-slate-900/10 bg-slate-700 text-slate-100">
-      <div className="mx-auto max-w-7xl px-6 py-8 md:px-10">
+      <div className="mx-auto max-w-[84rem] px-6 py-8 md:px-10">
         <div className="grid gap-y-8 gap-x-30 md:grid-cols-3">
           <div className="text-left pl-15">
             <h2 className="text-lg uppercase tracking-[0.08em]">
@@ -13,8 +13,9 @@ function Footer() {
               </span>
             </h2>
             <p className="mt-4 text-sm leading-relaxed text-slate-300">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              ut aliquet justo, vitae facilisis risus.
+              We help small and medium businesses implement AI automation, data
+              foundations, and internal tools without adding heavy delivery
+              demands to internal teams.
             </p>
           </div>
 

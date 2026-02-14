@@ -6,49 +6,49 @@ const services = [
   {
     title: "AI & Automation",
     description:
-      "We help businesses reduce manual work by applying practical AI and automation to everyday processes. The focus is on improving efficiency, reducing errors, and freeing up your team’s time without unnecessary complexity.",
-    outcome: "Typical outcome: Less time spent on admin and faster, more consistent operations.",
+      "We automate repetitive admin and workflow steps so your team can focus on customers, delivery, and growth. We handle design, build, and rollout so implementation does not become another internal project.",
+    outcome: "Typical outcome: Less manual processing, fewer errors, and faster day-to-day execution.",
     image: aiAutoImage,
   },
   {
     title: "Data & Analytics Foundations",
     description:
-      "We build reliable data foundations that give businesses confidence in their numbers and reporting. By consolidating data and improving data quality, we help decision-makers gain clear, trustworthy insights.",
-    outcome: "Clear visibility into performance and data you can rely on to make better decisions.",
+      "We consolidate key data sources and improve data quality so your reports are clear and dependable. You get trusted numbers for decisions without relying on spreadsheet patchwork.",
+    outcome: "Typical outcome: Clear performance visibility and better decisions with less reporting rework.",
     image: dataAnalyticsImage,
   },
   {
     title: "Custom Software & Internal Tools",
     description:
-      "We design and build custom internal tools when off-the-shelf software doesn’t quite fit your business. Our solutions are simple, secure, and tailored to how your team actually works.",
-    outcome: "Purpose-built tools that streamline processes and reduce reliance on manual workarounds.",
+      "When off-the-shelf tools do not fit, we build internal software around your real workflows. Your team gets tools that are easy to adopt and reduce time lost to workarounds.",
+    outcome: "Typical outcome: Faster operations with purpose-built tools that match how your business runs.",
     image: customSoftwareImage,
   },
 ];
 
 function ServicesGrid() {
   return (
-    <section className="w-full bg-white py-16">
-      <div className="mx-auto max-w-6xl px-6 md:px-10">
-        <div className="mb-10 text-center">
+    <section className="mt-7 w-full py-9">
+      <div className="mx-auto max-w-6xl">
+        <div className="mb-10 max-w-3xl text-left">
           <h2 className="text-2xl font-semibold text-slate-900">
             Our Services
           </h2>
           <p className="mt-3 text-sm text-slate-600 sm:text-base">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. We focus on
-            clarity, delivery, and long-term outcomes.
+            Practical AI and data services for small and medium businesses that
+            need outcomes without adding delivery burden to internal teams.
           </p>
         </div>
         <div className="grid gap-6 md:grid-cols-3">
         {services.map((service) => (
           <article
             key={service.title}
-            className="rounded-2xl bg-stone-200 px-8 py-10 text-center"
+            className="rounded-2xl bg-stone-200 px-8 py-10 text-left"
           >
             <img
               src={service.image}
               alt={service.title}
-              className="mx-auto mb-6 rounded-md object-contain"
+              className="mb-6 rounded-md object-contain"
               loading="lazy"
             />
             <h3 className="text-base font-semibold text-slate-900">
