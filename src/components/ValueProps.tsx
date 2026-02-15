@@ -35,8 +35,7 @@ function ValueProps() {
             How We Work
           </h2>
           <p className="mt-3 text-sm text-slate-600 sm:text-base">
-            We focus on what will move the needle first, deliver in clear
-            stages, and stay involved to keep improving outcomes over time.
+           We focus on what will create real impact first, roll it out in clear stages, and stay involved to keep things improving over time.
           </p>
         </div>
         <div className="grid gap-6 md:grid-cols-3">

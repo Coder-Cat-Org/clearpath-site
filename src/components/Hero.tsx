@@ -24,7 +24,7 @@ function Hero() {
                   to="/contact"
                   className="inline-flex w-full items-center justify-center rounded-xl border border-slate-900/20 bg-white px-5 py-3 text-sm font-semibold uppercase tracking-[0.16em] text-slate-900 transition hover:border-slate-900/40 sm:w-auto"
                 >
-                  Book a Discovery Call
+                  Discuss your goals
                 </Link>
                 <Link
                   to="/services"

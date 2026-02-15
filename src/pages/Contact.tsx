@@ -1,7 +1,7 @@
 import { useState } from "react";
 import type { FormEvent } from "react";
 
-const CONTACT_EMAIL = "hello@clearpathsystems.com";
+const CONTACT_EMAIL = "hello@clearpathsystems.com.au";
 const CONTACT_PHONE_INTL = "+61 448 175 351";
 
 function Contact() {
@@ -40,7 +40,7 @@ function Contact() {
     <section className="mx-auto w-full max-w-6xl space-y-8">
       <div className="space-y-4">
         <h1 className="text-3xl font-semibold text-slate-900 sm:text-4xl">
-          Let&apos;s Talk About Business Outcomes
+          Let&apos;s discuss your requirements
         </h1>
         <p className="max-w-3xl text-base leading-relaxed text-slate-700">
           Based in Brisbane, we work with businesses locally and across

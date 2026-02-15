@@ -32,7 +32,7 @@ function Services() {
           Services
         </p>
         <h1 className="mt-3 text-3xl font-semibold text-slate-900 sm:text-4xl">
-          Practical services that improve margins and save time
+          Practical AI and data services that improve margins and save time
         </h1>
         <p className="mt-4 max-w-4xl text-base leading-relaxed text-slate-700">
           Built for Australian small and medium businesses: clear scope, clear
