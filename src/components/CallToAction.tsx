@@ -18,7 +18,7 @@ function CallToAction() {
               to="/contact"
               className="inline-flex w-full items-center justify-center rounded-xl bg-white px-5 py-3 text-sm font-semibold uppercase tracking-[0.16em] !text-slate-900 transition hover:bg-slate-100 hover:!text-slate-900 visited:!text-slate-900 sm:w-auto"
             >
-              Book a Discovery Call
+              Discuss your goals
             </Link>
           </div>
         </div>

@@ -44,7 +44,7 @@ function Footer() {
               Contact
             </h3>
             <div className="mt-4 flex flex-col items-left gap-2 text-sm text-slate-300">
-              <span>hello@clearpathsystems.com</span>
+              <span>hello@clearpathsystems.com.au</span>
               <span>Brisbane, AU</span>
               <a className="hover:text-white" href="https://www.linkedin.com">
                 LinkedIn
