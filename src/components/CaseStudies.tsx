@@ -22,8 +22,8 @@ function CaseStudies() {
         <div className="mb-10 max-w-3xl text-left">
           <h2 className="text-2xl font-semibold text-slate-900">Case Studies</h2>
           <p className="mt-3 text-sm text-slate-600 sm:text-base">
-            Examples of practical solutions we have delivered for clients with
-            measurable business impact.
+            Examples of practical solutions we have delivered with measurable business
+            impact and clear operational results.
           </p>
         </div>
 

@@ -12,18 +12,19 @@ function Hero() {
                 ClearPath Systems
               </p>
               <h1 className="text-3xl font-semibold text-slate-900 sm:text-4xl lg:text-5xl">
-                AI and data solutions for small and medium businesses
+                Practical AI and data solutions for Australian small and medium businesses
               </h1>
               <p className="max-w-xl text-base font-light text-slate-600 sm:text-lg">
-                We do the technical work from start to finish, so you and your
-                team can stay focused on running the business.
+                We handle the technical work from scoping to rollout, so your
+                team can stay focused on customers, delivery, and day-to-day
+                operations.
               </p>
               <div className="flex w-full flex-col gap-3 sm:flex-row sm:justify-start">
                 <Link
                   to="/contact"
                   className="inline-flex w-full items-center justify-center rounded-xl border border-slate-900/20 bg-white px-5 py-3 text-sm font-semibold uppercase tracking-[0.16em] text-slate-900 transition hover:border-slate-900/40 sm:w-auto"
                 >
-                  Book A Discovery Call
+                  Book a Discovery Call
                 </Link>
                 <Link
                   to="/services"
