@@ -13,9 +13,9 @@ function Footer() {
               </span>
             </h2>
             <p className="mt-4 text-sm leading-relaxed text-slate-300">
-              We help small and medium businesses implement AI automation, data
-              foundations, and internal tools without adding heavy delivery
-              demands to internal teams.
+              We help small and medium businesses implement AI automation, stronger
+              data foundations, and internal tools without adding heavy
+              delivery demands to internal teams.
             </p>
           </div>
 
