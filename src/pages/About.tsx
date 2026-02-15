@@ -13,7 +13,7 @@ function About() {
         "We build data pipelines and reporting layers that improve confidence in your numbers and decision quality. This includes data modelling, anomaly detection, and forecasting aligned to operational planning.",
     },
     {
-      title: "Low-lift delivery for busy teams",
+      title: "Straightforward delivery for busy teams",
       description:
         "We handle scoping, implementation, and rollout with clear communication and manageable milestones. Your team gets tools they can adopt quickly without carrying the technical workload.",
     },
