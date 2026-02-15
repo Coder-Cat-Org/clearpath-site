@@ -6,21 +6,21 @@ const valueProps = [
   {
     title: "Clarity first",
     description:
-      "We identify the highest-value use cases first, so you avoid wasted spend and focus only on work that moves your business forward.",
+      "We work with you to prioritise the highest-value opportunities first, so you can improve operations without wasting time or budget.",
     image: clarityFirstImage,
     imageAlt: "Clarity first",
   },
   {
     title: "Professional delivery",
     description:
-      "We handle scoping, build, testing, and rollout with clear timelines, so your team is not stuck managing technical delivery.",
+      "We handle scoping, build, testing, and rollout with clear timelines and milestones, so your team is not stuck managing technical delivery.",
     image: professionalDeliveryImage,
     imageAlt: "Professional delivery",
   },
   {
     title: "Ongoing support",
     description:
-      "After launch, we stay involved to monitor performance, refine workflows, and support your team as your operations evolve.",
+      "After launch, we keep improving workflows and supporting your team, so results are maintained as your business grows.",
     image: reliableSupportImage,
     imageAlt: "Reliable support",
   },
@@ -35,9 +35,8 @@ function ValueProps() {
             How We Work
           </h2>
           <p className="mt-3 text-sm text-slate-600 sm:text-base">
-            We start by getting clear on what matters most, deliver the work
-            with a solid plan, and stay with you to support improvements over
-            time.
+            We focus on what will move the needle first, deliver in clear
+            stages, and stay involved to keep improving outcomes over time.
           </p>
         </div>
         <div className="grid gap-6 md:grid-cols-3">

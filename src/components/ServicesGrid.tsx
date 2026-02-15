@@ -6,21 +6,21 @@ const services = [
   {
     title: "AI & Automation",
     description:
-      "We automate repetitive admin and workflow steps so your team can focus on customers, delivery, and growth. We handle design, build, and rollout so implementation does not become another internal project.",
-    outcome: "Typical outcome: Less manual processing, fewer errors, and faster day-to-day execution.",
+      "We automate repetitive work so your team can focus on customers and delivery. We handle design, build, and rollout end to end, so implementation does not become another internal project.",
+    outcome: "Typical outcome: Less manual processing, fewer errors, and faster day-to-day operations.",
     image: aiAutoImage,
   },
   {
     title: "Data & Analytics Foundations",
     description:
-      "We consolidate key data sources and improve data quality so your reports are clear and dependable. You get trusted numbers for decisions without relying on spreadsheet patchwork.",
-    outcome: "Typical outcome: Clear performance visibility and better decisions with less reporting rework.",
+      "We consolidate key data sources, improve data quality, and build clear reporting. You get numbers you can trust without relying on multiple spreadsheets.",
+    outcome: "Typical outcome: Clearer performance visibility and better decisions with less reporting rework.",
     image: dataAnalyticsImage,
   },
   {
     title: "Custom Software & Internal Tools",
     description:
-      "When off-the-shelf tools do not fit, we build internal software around your real workflows. Your team gets tools that are easy to adopt and reduce time lost to workarounds.",
+      "When off-the-shelf tools do not fit, we build internal software around your workflow. Your team gets tools that are easy to adopt and reduce time lost to workarounds.",
     outcome: "Typical outcome: Faster operations with purpose-built tools that match how your business runs.",
     image: customSoftwareImage,
   },
@@ -36,7 +36,7 @@ function ServicesGrid() {
           </h2>
           <p className="mt-3 text-sm text-slate-600 sm:text-base">
             Practical AI and data services for small and medium businesses that
-            need outcomes without adding delivery burden to internal teams.
+            need clear outcomes without adding delivery burden to internal teams.
           </p>
         </div>
         <div className="grid gap-6 md:grid-cols-3">

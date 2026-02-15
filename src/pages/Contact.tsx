@@ -16,11 +16,11 @@ function Contact() {
     event.preventDefault();
 
     const subject = encodeURIComponent(
-      `New Contact Inquiry${company ? ` - ${company}` : ""}`,
+      `New Contact Enquiry${company ? ` - ${company}` : ""}`,
     );
     const body = encodeURIComponent(
       [
-        "A new business inquiry was submitted from the ClearPath Systems website.",
+        "A new business enquiry was submitted from the ClearPath Systems website.",
         "",
         `Name: ${name}`,
         `Company: ${company || "Not provided"}`,
@@ -40,12 +40,12 @@ function Contact() {
     <section className="mx-auto w-full max-w-6xl space-y-8">
       <div className="space-y-4">
         <h1 className="text-3xl font-semibold text-slate-900 sm:text-4xl">
-          Let&apos;s Talk About Your Business Goals
+          Let&apos;s Talk About Business Outcomes
         </h1>
         <p className="max-w-3xl text-base leading-relaxed text-slate-700">
           Based in Brisbane, we work with businesses locally and across
-          Australia. In-person meetings are available in Brisbane, and video
-          consultations are available nationwide.
+          Australia. In-person meetings are available in Brisbane, with video
+          consultations available nationwide.
         </p>
       </div>
 
@@ -77,10 +77,10 @@ function Contact() {
         </aside>
 
         <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-slate-900/10 sm:p-8">
-          <h2 className="text-xl font-semibold text-slate-900">Send an Inquiry</h2>
+          <h2 className="text-xl font-semibold text-slate-900">Send an Enquiry</h2>
           <p className="mt-2 text-sm text-slate-600">
-            Fill out this form to draft an email to {CONTACT_EMAIL}. We can
-            connect this to your final email system later.
+            Fill out this form and we will receive your details by email. We can
+            connect this to your preferred CRM or inbox workflow later.
           </p>
 
           <form className="mt-6 space-y-4" onSubmit={handleSubmit}>
@@ -129,7 +129,7 @@ function Contact() {
             </div>
 
             <label className="flex flex-col gap-2 text-sm font-medium text-slate-800">
-              Preferred Meeting Type
+              Preferred meeting type
               <select
                 value={meetingType}
                 onChange={(event) => setMeetingType(event.target.value)}
@@ -142,13 +142,13 @@ function Contact() {
             </label>
 
             <label className="flex flex-col gap-2 text-sm font-medium text-slate-800">
-              Project Details
+              Project details
               <textarea
                 required
                 rows={6}
                 value={message}
                 onChange={(event) => setMessage(event.target.value)}
-                placeholder="Tell us about your current process, bottlenecks, and what outcomes you want to achieve."
+                placeholder="Tell us about your current process, key bottlenecks, and the outcomes you want to achieve."
                 className="rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-slate-900 outline-none transition focus:border-slate-500 focus:ring-2 focus:ring-slate-300"
               />
             </label>
@@ -157,7 +157,7 @@ function Contact() {
               type="submit"
               className="w-full rounded-xl bg-slate-900 px-5 py-3 text-sm font-semibold uppercase tracking-[0.12em] text-white transition hover:bg-slate-800 sm:w-auto"
             >
-              Send Inquiry
+              Send Enquiry
             </button>
           </form>
         </div>

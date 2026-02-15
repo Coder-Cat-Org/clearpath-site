@@ -6,19 +6,19 @@ function CallToAction() {
       <div className="mx-auto max-w-6xl">
         <div className="rounded-2xl bg-slate-900 px-8 py-10 text-left text-white">
           <h2 className="text-2xl font-semibold">
-            Ready to talk about your project?
+            Ready to improve results in your business?
           </h2>
           <p className="mt-3 max-w-3xl text-sm text-slate-200 sm:text-base">
-            If you need to reduce process bottlenecks, improve data quality, or
-            apply AI without overloading your team, we can design and deliver
-            the right solution.
+            If you need to reduce process bottlenecks, improve reporting quality, or
+            apply AI without adding team pressure, we can design and deliver a
+            practical solution.
           </p>
           <div className="mt-6 flex w-full flex-col gap-3 sm:flex-row sm:justify-start">
             <Link
               to="/contact"
               className="inline-flex w-full items-center justify-center rounded-xl bg-white px-5 py-3 text-sm font-semibold uppercase tracking-[0.16em] !text-slate-900 transition hover:bg-slate-100 hover:!text-slate-900 visited:!text-slate-900 sm:w-auto"
             >
-              Book A Discovery Call
+              Book a Discovery Call
             </Link>
           </div>
         </div>
