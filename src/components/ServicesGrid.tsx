@@ -37,6 +37,8 @@ function ServicesGrid() {
           <p className="mt-3 text-sm text-slate-600 sm:text-base">
             Practical AI and data services for small and medium businesses that
             need clear outcomes without adding delivery burden to internal teams.
+            We can host your solution for you or deploy it directly on your
+            platform.
           </p>
         </div>
         <div className="grid gap-6 md:grid-cols-3">
