@@ -23,11 +23,11 @@ function Header() {
           <img
             src={logo}
             alt="ClearPath Systems logo"
-            className="h-11 w-11 object-contain"
+            className="h-14 w-14 object-contain"
           />
           <span className="text-[#0b1f3b]">
-            <span className="block text-left font-bold">ClearPath</span>
-            <span className="block text-left text-[0.7rem] font-light text-slate-500">
+            <span className="block text-left text-lg font-bold">ClearPath</span>
+            <span className="block text-left text-sm font-light text-slate-500">
               Systems
             </span>
           </span>

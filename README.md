@@ -1,74 +1,73 @@
-# React + TypeScript + Vite
+# ClearPath Systems Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the marketing website for **ClearPath Systems**.
 
-Currently, two official plugins are available:
+## What This Site Is
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a responsive business website that explains ClearPath Systems services and gives potential clients a clear path to get in touch.  
+It includes:
 
-## React Compiler
+- A homepage with service positioning and value proposition
+- Service pages focused on practical business outcomes
+- An about page describing delivery approach and business focus
+- A contact page for enquiries
 
+## About The Business
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**ClearPath Systems** helps Australian small and medium businesses apply AI and data in practical, commercially useful ways.
 
-## Expanding the ESLint configuration
+Core focus areas:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- AI and workflow automation
+- Data and analytics foundations
+- Custom internal software and tools
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+The business positions itself as an end-to-end delivery partner, handling scoping through rollout so internal teams can stay focused on operations.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Tech Stack
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- **React 19** for UI components
+- **TypeScript** for typed application code
+- **Vite** for development server and production builds
+- **React Router** for client-side routing
+- **Tailwind CSS v4** for styling
+- **PostCSS + Autoprefixer** for CSS processing
+- **ESLint** for linting and code quality
+
+## Project Structure
+
+- `src/pages/` route-level pages (Home, About, Services, Contact, NotFound)
+- `src/components/` reusable UI sections and layout components
+- `src/assets/` images and static media used in the site
+
+## Local Development
+
+Install dependencies:
+
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Start development server:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+```bash
+npm run dev
+```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+Run linting:
+
+```bash
+npm run lint
 ```
