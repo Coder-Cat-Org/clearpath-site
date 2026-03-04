@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 function About() {
@@ -21,6 +22,11 @@ function About() {
 
   return (
     <section className="mx-auto w-full max-w-6xl space-y-8">
+      <Helmet>
+        <title>About | ClearPath Systems</title>
+        <meta name="description" content="ClearPath Systems is a practical AI and data partner for Australian small and medium businesses, delivering end-to-end automation, reporting, and custom software solutions." />
+        <link rel="canonical" href="https://clearpathsystems.com.au/about" />
+      </Helmet>
       <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-slate-900/10 sm:p-8">
         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">
           About ClearPath Systems

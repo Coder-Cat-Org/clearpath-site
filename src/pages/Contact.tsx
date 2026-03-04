@@ -1,5 +1,6 @@
 import { useState } from "react";
 import type { FormEvent } from "react";
+import { Helmet } from "react-helmet-async";
 
 const CONTACT_EMAIL = "hello@clearpathsystems.com.au";
 const CONTACT_PHONE_INTL = "+61 448 175 351";
@@ -38,6 +39,11 @@ function Contact() {
 
   return (
     <section className="mx-auto w-full max-w-6xl space-y-8">
+      <Helmet>
+        <title>Contact | ClearPath Systems</title>
+        <meta name="description" content="Get in touch with ClearPath Systems. Based in Brisbane, we work with businesses across Australia. Discuss your AI, data, or software project with us." />
+        <link rel="canonical" href="https://clearpathsystems.com.au/contact" />
+      </Helmet>
       <div className="space-y-4">
         <h1 className="text-3xl font-semibold text-slate-900 sm:text-4xl">
           Let&apos;s discuss your requirements

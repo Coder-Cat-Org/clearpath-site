@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 const services = [
@@ -27,6 +28,11 @@ const services = [
 function Services() {
   return (
     <section className="mx-auto w-full max-w-6xl space-y-8">
+      <Helmet>
+        <title>Services | ClearPath Systems</title>
+        <meta name="description" content="AI automation, data analytics, and custom internal software for Australian small and medium businesses. Clear scope, clear costs, and measurable outcomes in months." />
+        <link rel="canonical" href="https://clearpathsystems.com.au/services" />
+      </Helmet>
       <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-slate-900/10 sm:p-8">
         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">
           Services
